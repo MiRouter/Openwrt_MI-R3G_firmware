@@ -12,5 +12,6 @@ cd ..
 git clone https://github.com/Lienol/openwrt-package lede-package/
 cd openwrt/package/feeds/luci/
 mv -f /lede-package/lienol/* .
+cd /openwrt/
 ./scripts/feeds update -a
 ./scripts/feeds install -a
