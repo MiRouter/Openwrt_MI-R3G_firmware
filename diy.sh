@@ -12,7 +12,7 @@ cd ..
 ls
 git clone https://github.com/Lienol/openwrt-package lede-pack1
 ls
-mv -f lede-pack1/lienol/* /openwrt/package/feeds/luci
+mv -f lede-pack1/lienol/* /openwrt/package/feeds/luci/
 cd openwrt
 ls
 ./scripts/feeds update -a
