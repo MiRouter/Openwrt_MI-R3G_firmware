@@ -11,7 +11,8 @@
 #./scripts/feeds clean
 #./scripts/feeds update -a
 #./scripts/feeds install -a
-git clone https://github.com/rufengsuixing/luci-app-adguardhome package/feeds/luci/luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+git clone https://github.com/kenzok8/openwrt-packages package/op-packages
 #./scripts/feeds clean
 ./scripts/feeds update -a
 ./scripts/feeds install -a
