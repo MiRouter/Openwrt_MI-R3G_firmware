@@ -19,3 +19,5 @@ git clone https://github.com/jerrykuku/luci-app-vssr package/helloworld/luci-app
 #./scripts/feeds clean
 ./scripts/feeds update -a
 ./scripts/feeds install -a
+rm -rf package/lean/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
