@@ -13,8 +13,8 @@
 #./scripts/feeds install -a
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 #git clone https://github.com/fw876/helloworld package/helloworld
-git clone https://github.com/jerrykuku/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb package/helloworld/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr package/helloworld/luci-app-vssr
 #git clone https://github.com/kenzok8/openwrt-packages package/op-packages
 #./scripts/feeds clean
 ./scripts/feeds update -a
