@@ -12,12 +12,12 @@
 #./scripts/feeds update -a
 #./scripts/feeds install -a
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
-#git clone https://github.com/fw876/helloworld package/helloworld
 git clone https://github.com/jerrykuku/lua-maxminddb package/helloworld/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr package/helloworld/luci-app-vssr
 #git clone https://github.com/kenzok8/openwrt-packages package/op-packages
 #./scripts/feeds clean
-./scripts/feeds update -a
-./scripts/feeds install -a
-rm -rf package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
+#./scripts/feeds update -a
+#./scripts/feeds install -a
+cd package/lean
+rm -rf luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon luci-theme-argon
