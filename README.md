@@ -7,7 +7,10 @@
 刷入方法请自行百度/Google  
 
 
-# **欢迎加入小米路由交流群：[702055145(点击快速跳转)](https://jq.qq.com/?_wv=1027&k=5yqfmGi)**   
+# **欢迎加入小米路由交流群：**
+
+- [QQ群:702055145(点击快速跳转)](https://jq.qq.com/?_wv=1027&k=5yqfmGi)
+- [Telegram群:@PlayMiWifi(点击快速跳转)](https://t.me/PlayMiWifi)
 
 ## Acknowledgments
 
