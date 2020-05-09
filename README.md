@@ -1,5 +1,6 @@
 # Openwrt_MI-R3G_firmware  
 为MI-R3G（小米路由器3G）精心打磨的固件，每周自动编译  
+欢迎各位使用 Star  
 ## How to use/download（如何使用/下载）  
 在[Actions界面](https://github.com/liuran001/Openwrt_MI-R3G_firmware/actions)选择最新编译固件下载（内有奶牛快传和WeTransfer下载链接）  
 添加了 AdGuardHome  Hello World  迅雷快鸟  可道云 等等插件，以及打印等等功能，满足99.99%的使用者需要  
