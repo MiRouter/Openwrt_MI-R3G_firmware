@@ -1,9 +1,9 @@
 #=================================================
-# https://github.com/P3TERX/Actions-OpenWrt
+# https://github.com/liuran001/Openwrt_MI-R3G_firmware
 # Description: Build OpenWrt using GitHub Actions
 # Lisence: MIT
-# Author: P3TERX
-# Blog: https://p3terx.com
+# Author: liuran001
+# Blog: https://qqcn.xyz
 #=================================================
 
 name: 为MI-R3G自动编译LEDE
