@@ -1,7 +1,8 @@
 # Openwrt_MI-R3G_firmware  
 为MI-R3G（小米路由器3G）精心打磨的固件，每周自动编译  
 欢迎各位使用 Star  
-默认SSID:Openwrt  后台账号:root password
+默认SSID:Openwrt  后台账号:root password  
+[更新日志](https://github.com/liuran001/Openwrt_MI-R3G_firmware/blob/master/relnotes.txt)
 # 请使用#34及之后编译的固件，建议使用最新
 ## How to use/download（如何使用/下载）  
 在[Actions界面](https://github.com/liuran001/Openwrt_MI-R3G_firmware/actions)选择最新编译固件下载（内有奶牛快传和WeTransfer下载链接）  
