@@ -32,5 +32,5 @@
 
 ## License
 
-[MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE) © P3TERX
+[MIT](https://github.com/liuran001/Openwrt_MI-R3G_firmware/blob/master/LICENSE) © liuran001
 
