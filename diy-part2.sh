@@ -14,10 +14,19 @@
 #=================================================
 #=================================================
 # 获取luci-app-adguardhome
-git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/diy-packages/luci-app-adguardhome
 # 获取hello world和依赖
-git clone https://github.com/jerrykuku/lua-maxminddb package/helloworld/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr package/helloworld/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb package/diy-packages/helloworld/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr package/diy-packages/helloworld/luci-app-vssr
+# 获取passwall
+git clone https://github.com/liuran001/luci-app-passwall package/diy-packages/passwall
+# 获取Lienol-package
+git clone https://github.com/Lienol/openwrt-package package/diy-packages/lienol
+# 获取luci-app-diskman和依赖
+mkdir -p package/diy-packages/luci-app-diskman && \
+mkdir -p package/diy-packages/parted && \
+wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Makefile -O package/diy-packages/luci-app-diskman/Makefile
+wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/diy-packages/parted/Makefile
 #=================================================
 #=================================================
 # 清除旧版argon主题并拉取最新版
