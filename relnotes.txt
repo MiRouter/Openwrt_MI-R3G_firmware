@@ -1,3 +1,11 @@
+2020.06.02
+删除luci-app-filebrowser（无法使用）
+删除luci-app-clash（无法使用，疯狂报错）
+因luci-app-passwall的3.6-41版本CPU占用严重，修改为3.6-40版本
+（luci-app-passwall来源：https://github.com/liuran001/luci-app-passwall ©Lienol）
+
+=======================
+
 2020.05.30
 新增插件
 CONFIG_PACKAGE_drill=y

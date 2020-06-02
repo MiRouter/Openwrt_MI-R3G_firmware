@@ -19,7 +19,7 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome package/diy-pack
 git clone https://github.com/jerrykuku/lua-maxminddb package/diy-packages/helloworld/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr package/diy-packages/helloworld/luci-app-vssr
 # 获取passwall
-git clone https://github.com/liuran001/luci-app-passwall package/diy-packages/passwall
+git clone -b 3.6-40 https://github.com/liuran001/luci-app-passwall package/diy-packages/passwall
 # 获取Lienol-package
 git clone https://github.com/Lienol/openwrt-package package/diy-packages/lienol
 # 获取luci-app-diskman和依赖
@@ -30,7 +30,7 @@ wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Mak
 # 获取luci-app-serverchan
 git clone https://github.com/schen39/luci-app-serverchan package/diy-packages/luci-app-serverchan
 # 获取luci-app-clash
-git clone https://github.com/frainzy1477/luci-app-clash package/diy-packages/luci-app-clash
+# git clone https://github.com/frainzy1477/luci-app-clash package/diy-packages/luci-app-clash
 #=================================================
 #=================================================
 # 清除旧版argon主题并拉取最新版
