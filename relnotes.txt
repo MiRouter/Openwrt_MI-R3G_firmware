@@ -1,3 +1,8 @@
+2020.06.03
+添加luci-app-verysync luci-app-syncthing
+
+=======================
+
 2020.06.02
 删除luci-app-filebrowser（无法使用）
 删除luci-app-clash（无法使用，疯狂报错）
