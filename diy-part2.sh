@@ -29,8 +29,8 @@ wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Makefile -
 wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/diy-packages/parted/Makefile
 # 获取luci-app-serverchan
 git clone https://github.com/tty228/luci-app-serverchan package/diy-packages/luci-app-serverchan
-# 获取luci-app-clash
-# git clone https://github.com/frainzy1477/luci-app-clash package/diy-packages/luci-app-clash
+# 获取luci-app-openclash
+git clone -b master https://github.com/vernesong/OpenClash package/diy-packages/openclash
 #=================================================
 #=================================================
 # 清除旧版argon主题并拉取最新版

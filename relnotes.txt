@@ -1,3 +1,8 @@
+2020.06.07
+添加luci-app-openclash
+
+=======================
+
 2020.06.03
 （No.1）添加luci-app-verysync luci-app-syncthing
 （No.2）修改luci-app-serverchan来源为https://github.com/tty228/luci-app-serverchan
