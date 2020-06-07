@@ -17,7 +17,7 @@
 - Telegram群:[@PlayMiWifi](https://t.me/PlayMiWifi)
 
 ## Acknowledgments
-[Here](https://github.com/liuran001/thanks.md)
+[Here](https://github.com/liuran001/Openwrt_MI-R3G_firmware/blob/master/thanks.md)
 
 
 ## License
