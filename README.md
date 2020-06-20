@@ -1,7 +1,7 @@
 # Openwrt_MI-R3G_firmware  
 为MI-R3G（小米路由器3G）精心打磨的固件，每周自动编译  
-![为MI-R3G自动编译LEDE](https://github.com/liuran001/Openwrt_MI-R3G_firmware/workflows/%E4%B8%BAMI-R3G%E8%87%AA%E5%8A%A8%E7%BC%96%E8%AF%91LEDE/badge.svg)
-欢迎各位使用 Star  
+![为MI-R3G自动编译LEDE](https://github.com/liuran001/Openwrt_MI-R3G_firmware/workflows/%E4%B8%BAMI-R3G%E8%87%AA%E5%8A%A8%E7%BC%96%E8%AF%91LEDE/badge.svg)  
+欢迎各位使用 Star Fork  
 默认SSID:Openwrt  后台账号:root password  
 [更新日志](https://github.com/liuran001/Openwrt_MI-R3G_firmware/blob/master/relnotes.txt)
 # 请使用#34及之后编译的固件，建议使用最新
