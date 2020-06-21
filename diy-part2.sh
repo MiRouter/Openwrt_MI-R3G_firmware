@@ -32,6 +32,7 @@ git clone https://github.com/tty228/luci-app-serverchan package/diy-packages/luc
 # 获取luci-app-openclash
 git clone -b master https://github.com/vernesong/OpenClash package/diy-packages/openclash
 #=================================================
+sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
 #=================================================
 # 清除旧版argon主题并拉取最新版
 cd package/lean
