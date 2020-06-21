@@ -39,3 +39,7 @@ rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon luci-theme-argon
 #=================================================
 #=================================================
+# 修改BaiduPCS-web来源
+cd package/lean
+rm -rf baidupcs-web
+git clone https://github.com/liuran001/baidupcs-web-lede baidupcs-web
