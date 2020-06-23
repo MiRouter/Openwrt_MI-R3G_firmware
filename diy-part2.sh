@@ -31,17 +31,22 @@ wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Mak
 git clone https://github.com/tty228/luci-app-serverchan package/diy-packages/luci-app-serverchan
 # 获取luci-app-openclash
 git clone -b master https://github.com/vernesong/OpenClash package/diy-packages/openclash
-mkdir -p package/diy-packages/po2lmo && \
-mv -f package/diy-packages/openclash/luci-app-openclash/tools/po2lmo package/diy-packages/po2lmo
+pushd package/diy-packages/openclash/luci-app-openclash/tools/po2lmo
+make && sudo make install
+popd
 #=================================================
+# 清除默认主题
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
 #=================================================
 # 清除旧版argon主题并拉取最新版
-cd package/lean
+pushd package/lean
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon luci-theme-argon
+popd
 #=================================================
 #=================================================
 # 修改BaiduPCS-web来源
+pushd package/lean
 rm -rf baidupcs-web
 git clone https://github.com/liuran001/baidupcs-web-lede baidupcs-web
+popd
