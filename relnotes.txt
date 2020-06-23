@@ -1,3 +1,8 @@
+2020.06.23
+新增luci-app-music-remote-center kmod-tun
+
+=======================
+
 2020.06.21
 由于原baidupcs-web代码作者已删库，修改为https://github.com/liuran001/baidupcs-web-lede
 添加luci-app-minidlna
