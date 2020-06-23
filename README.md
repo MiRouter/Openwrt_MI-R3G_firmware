@@ -3,6 +3,7 @@
 ![为MI-R3G自动编译LEDE](https://github.com/liuran001/Openwrt_MI-R3G_firmware/workflows/%E4%B8%BAMI-R3G%E8%87%AA%E5%8A%A8%E7%BC%96%E8%AF%91LEDE/badge.svg)  
 > 如果连续三次以上编译失败请联系我  
 欢迎各位使用 Star Fork  
+[下载](https://github.com/liuran001/Openwrt_MI-R3G_firmware/actions)
 默认SSID:Openwrt  后台账号:root password  
 [更新日志](https://github.com/liuran001/Openwrt_MI-R3G_firmware/blob/master/relnotes.txt)
 # 请使用最新固件，不接受旧版固件的任何反馈
