@@ -5,7 +5,7 @@
 欢迎各位使用 Star Fork  
 默认SSID:Openwrt  后台账号:root password  
 [更新日志](https://github.com/liuran001/Openwrt_MI-R3G_firmware/blob/master/relnotes.txt)
-# 请使用#34及之后编译的固件，建议使用最新
+# 请使用最新固件，不接受旧版固件的任何反馈
 ## 如何下载  
 在[Actions界面](https://github.com/liuran001/Openwrt_MI-R3G_firmware/actions)选择最新编译固件下载（内有奶牛快传和WeTransfer下载链接）  
 > 添加了 AdGuardHome  Hello World  迅雷快鸟  可道云 等等插件，以及打印等等功能，满足99.99%的使用者需要  
