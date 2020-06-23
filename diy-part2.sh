@@ -31,6 +31,8 @@ wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Mak
 git clone https://github.com/tty228/luci-app-serverchan package/diy-packages/luci-app-serverchan
 # 获取luci-app-openclash
 git clone -b master https://github.com/vernesong/OpenClash package/diy-packages/openclash
+mkdir -p package/diy-packages/po2lmo && \
+mv -f package/diy-packages/openclash/luci-app-openclash/tools/po2lmo package/diy-packages/po2lmo
 #=================================================
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
 #=================================================
