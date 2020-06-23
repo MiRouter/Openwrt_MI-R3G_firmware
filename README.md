@@ -10,7 +10,7 @@
 在[Actions界面](https://github.com/liuran001/Openwrt_MI-R3G_firmware/actions)选择最新编译固件下载（内有奶牛快传和WeTransfer下载链接）  
 > 添加了 AdGuardHome  Hello World  迅雷快鸟  可道云 等等插件，以及打印等等功能，满足99.99%的使用者需要  
 内置了Argon主题，可以自行切换
-刷入方法请自行百度/Google  
+刷入方法请自行百度/Google（刷入教程等暑假）  
 ![截图](https://cdn.jsdelivr.net/gh/liuran001/Openwrt_MI-R3G_firmware@master/pic/pic1.PNG)  
 
 
