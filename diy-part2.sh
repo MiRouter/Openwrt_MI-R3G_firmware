@@ -29,7 +29,7 @@ wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Makefile -
 wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/diy-packages/parted/Makefile
 # 获取luci-app-serverchan
 git clone https://github.com/tty228/luci-app-serverchan package/diy-packages/luci-app-serverchan
-# 获取luci-app-openclash
+# 获取luci-app-openclash 编译po2lmo
 git clone -b master https://github.com/vernesong/OpenClash package/diy-packages/openclash
 pushd package/diy-packages/openclash/luci-app-openclash/tools/po2lmo
 make && sudo make install
@@ -50,3 +50,5 @@ pushd package/lean
 rm -rf baidupcs-web
 git clone https://github.com/liuran001/baidupcs-web-lede baidupcs-web
 popd
+# emmmmm
+echo 'All right!'
