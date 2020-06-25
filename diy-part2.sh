@@ -50,5 +50,3 @@ pushd package/lean
 rm -rf baidupcs-web
 git clone https://github.com/liuran001/baidupcs-web-lede baidupcs-web
 popd
-# emmmmm
-echo 'All right!'
