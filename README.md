@@ -24,7 +24,16 @@
 ## Acknowledgments
 [Here](https://github.com/liuran001/Openwrt_MI-R3G_firmware/blob/master/thanks.md)
 
+# 支持我
+- 微信  
+![wxpay](https://cdn.jsdelivr.net/gh/liuran001/Openwrt_MI-R3G_firmware@master/pic/wxpay.png)  
+  
+- 支付宝
+![alipay](https://cdn.jsdelivr.net/gh/liuran001/Openwrt_MI-R3G_firmware@master/pic/alipay.jpg)  
 
+- QQ支付
+![qqpay](https://cdn.jsdelivr.net/gh/liuran001/Openwrt_MI-R3G_firmware@master/pic/qqpay.png)  
+  
 ## License
 
 [MIT](https://github.com/liuran001/Openwrt_MI-R3G_firmware/blob/master/LICENSE) © liuran001
