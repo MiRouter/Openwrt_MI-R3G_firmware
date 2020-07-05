@@ -19,7 +19,7 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome package/diy-pack
 git clone https://github.com/jerrykuku/lua-maxminddb package/diy-packages/helloworld/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr package/diy-packages/helloworld/luci-app-vssr
 # 获取passwall
-git clone -b 3.6-40 https://github.com/liuran001/luci-app-passwall package/diy-packages/passwall
+# git clone -b 3.6-40 https://github.com/liuran001/luci-app-passwall package/diy-packages/passwall
 # 获取Lienol-package
 git clone https://github.com/Lienol/openwrt-package package/diy-packages/lienol
 # 获取luci-app-diskman和依赖
@@ -46,7 +46,7 @@ popd
 #=================================================
 #=================================================
 # 修改BaiduPCS-web来源
-pushd package/lean
-rm -rf baidupcs-web
-git clone https://github.com/liuran001/baidupcs-web-lede baidupcs-web
-popd
+#pushd package/lean
+#rm -rf baidupcs-web
+#git clone https://github.com/liuran001/baidupcs-web-lede baidupcs-web
+#popd
