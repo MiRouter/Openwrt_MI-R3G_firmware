@@ -6,7 +6,7 @@
 # Blog: https://qqcn.xyz
 #=================================================
 
-name: 为MI-R3G自动编译LEDE
+name: 测试版固件-dev
 
 on:
   repository_dispatch:
@@ -14,13 +14,12 @@ on:
     types: published
   push:
     branches:
-      - master
       - dev-test-ssh
     paths:
       - '.config'
       - 'diy-part2.sh'
-  schedule:
-    - cron: 0 6 * * 5
+#  schedule:
+#    - cron: 0 6 * * 5
 #  watch:
 #    types: started
 
@@ -31,7 +30,7 @@ env:
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
-  SSH_ACTIONS: false
+  SSH_ACTIONS: true
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
