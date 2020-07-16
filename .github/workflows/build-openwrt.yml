@@ -15,7 +15,6 @@ on:
   push:
     branches:
       - master
-      - dev-test-ssh
     paths:
       - '.config'
       - 'diy-part2.sh'
